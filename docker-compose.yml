@@ -1,0 +1,21 @@
+version: '3.7'
+
+services: 
+  app:
+    build:
+      context: .
+    container_name: api
+    restart: always
+    environment: 
+      - SECRET_KEY=${SECRET_KEY}
+    expose:
+      - 8080 # uwsgi is listening to :8080 so expose :8080
+    volumes:
+      - ./app:/app # local development autorefresh without building
+
+  proxy:
+    build: ./proxy
+    container_name: nginx
+    restart: always
+    ports: 
+      - "8000:8000"
