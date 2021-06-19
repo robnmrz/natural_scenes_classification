@@ -96,7 +96,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [https://github.com/robnmrz/rodcalc](https://github.com/robnmrz/rodcalc)
+Project Link: [https://github.com/robnmrz/natural_scenes_classification](https://github.com/robnmrz/natural_scenes_classification)
 
 <!-- Acknowledgement -->
 ## Acknowledgements
